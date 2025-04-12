@@ -14,7 +14,7 @@ public class EjercicioFaker {
         final var edad = faker.number().numberBetween(20, 50);
         final var peso = faker.number().randomDouble(3, 50, 80);
         final var escasado = faker.bool().bool();
-        final var frase = faker.backToTheFuture().quote();
+        final var fraseCompleta = faker.backToTheFuture().quote();
 
         System.out.println(nombre);
         System.out.println(apellido);
@@ -22,6 +22,6 @@ public class EjercicioFaker {
         System.out.println(edad);
         System.out.println(peso);
         System.out.println(escasado);
-        System.out.println(frase);
+        System.out.println(fraseCompleta);
     }
 }

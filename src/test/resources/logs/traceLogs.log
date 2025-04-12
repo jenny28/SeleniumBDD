@@ -1,0 +1,13 @@
+16:16:00.205 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero visualizar en el footer FB,TW y LK para tener acceso a estar redes sociales
+16:16:00.209 DEBUG AUTOMATION - Inicializando el driver
+16:16:02.149 DEBUG AUTOMATION - maximizar las pantallas
+16:16:02.193 DEBUG AUTOMATION - eliminar cookies
+16:16:02.203 DEBUG AUTOMATION - Agregando implicit wait
+16:16:02.208 DEBUG AUTOMATION - guardar el driver inicializado
+16:16:03.196 INFO  AUTOMATION - verificar login user
+16:16:03.197 INFO  AUTOMATION - escribo el username
+16:16:03.334 INFO  AUTOMATION - escribo password
+16:16:03.449 INFO  AUTOMATION - hago click
+16:16:03.627 INFO  AUTOMATION - verificar página
+16:16:03.835 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero visualizar en el footer FB,TW y LK para tener acceso a estar redes sociales, status: PASSED
+16:16:03.835 DEBUG AUTOMATION - matando el driver

@@ -1,9 +1,11 @@
 package steps;
 
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
 import pages.ShoppingPage;
+import utilities.Logs;
 import utilities.WebDriverProvider;
 
 public class ShoppingStepDefinitions {
@@ -17,6 +19,14 @@ public class ShoppingStepDefinitions {
 
     @Then("verifico la UI de la interfaz de shopping")
     public void verificoLaUIDeLaInterfazDeShopping() {
+        Logs.info("verificar UI shopping");
         shoppingPage.verificarUIshopping();
+    }
+
+    @When("agrego todos los items al carrito de compra")
+    public void addToCart() {
+        Logs.info("agregar los items al carrito");
+        shoppingPage.addToCart();
+
     }
 }

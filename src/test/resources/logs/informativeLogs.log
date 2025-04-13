@@ -1,7 +1,7 @@
-22:24:15.627 INFO  AUTOMATION - comienzo el escenario: 
-22:24:18.089 INFO  AUTOMATION - verificar login user
-22:24:18.095 INFO  AUTOMATION - escribo el username
-22:24:18.238 INFO  AUTOMATION - escribo password
-22:24:18.348 INFO  AUTOMATION - hago click
-22:24:18.525 INFO  AUTOMATION - verificar ui página shopping
-22:24:18.721 INFO  AUTOMATION - Terminando el escenario: , status: PASSED
+22:55:28.811 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero verificar la cantidad de elementos seleccionados desde PLP para que pueda realizar la compra
+22:55:31.520 INFO  AUTOMATION - verificar login user
+22:55:31.520 INFO  AUTOMATION - escribo el username
+22:55:31.654 INFO  AUTOMATION - escribo password
+22:55:31.794 INFO  AUTOMATION - hago click
+22:55:31.949 INFO  AUTOMATION - agregar los items al carrito
+22:55:32.391 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero verificar la cantidad de elementos seleccionados desde PLP para que pueda realizar la compra, status: PASSED

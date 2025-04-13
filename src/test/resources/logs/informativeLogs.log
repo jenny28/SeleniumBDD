@@ -1,7 +1,7 @@
-16:16:00.205 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero visualizar en el footer FB,TW y LK para tener acceso a estar redes sociales
-16:16:03.196 INFO  AUTOMATION - verificar login user
-16:16:03.197 INFO  AUTOMATION - escribo el username
-16:16:03.334 INFO  AUTOMATION - escribo password
-16:16:03.449 INFO  AUTOMATION - hago click
-16:16:03.627 INFO  AUTOMATION - verificar página
-16:16:03.835 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero visualizar en el footer FB,TW y LK para tener acceso a estar redes sociales, status: PASSED
+22:24:15.627 INFO  AUTOMATION - comienzo el escenario: 
+22:24:18.089 INFO  AUTOMATION - verificar login user
+22:24:18.095 INFO  AUTOMATION - escribo el username
+22:24:18.238 INFO  AUTOMATION - escribo password
+22:24:18.348 INFO  AUTOMATION - hago click
+22:24:18.525 INFO  AUTOMATION - verificar ui página shopping
+22:24:18.721 INFO  AUTOMATION - Terminando el escenario: , status: PASSED

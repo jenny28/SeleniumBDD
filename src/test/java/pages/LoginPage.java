@@ -27,7 +27,7 @@ public class LoginPage extends BasePage {
         );
     }
 
-    public void loginUser(String username, String password) {
+    public void verificarLogin(String username, String password) {
         Logs.info("escribo el username");
         find(usernameInput).sendKeys(username);
         Logs.info("escribo password");

@@ -50,6 +50,6 @@ public class LoginStepDefinitions {
     @When("ingreso el usuario {string} y password {string}")
     public void verificarLoginUser(String username, String password) {
         Logs.info("verificar login user");
-        loginPage.loginUser(username, password);
+        loginPage.verificarLogin(username, password);
     }
 }

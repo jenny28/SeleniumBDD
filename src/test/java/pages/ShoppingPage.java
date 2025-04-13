@@ -13,14 +13,11 @@ public class ShoppingPage extends BasePage {
     private final By listItems = By.className("inventory_list");
     private final By btnCheckout = By.id("shopping_cart_container");
     private final By btnBurgerMenu = By.id("react-burger-menu-btn");
+    
     private final By listaAddToCart = By.xpath("//button[text()='Add to cart']");
 
     @Override
     public void verifyPage() {
-
-    }
-
-    public void verificarUIshopping() {
         Logs.info("verificar ui página shopping");
         Assertions.assertAll(
                 () -> Assertions.assertTrue(find(titleSwagTab).isDisplayed(), "título swag"),
@@ -31,6 +28,7 @@ public class ShoppingPage extends BasePage {
                 () -> Assertions.assertTrue(find(btnBurgerMenu).isDisplayed(), "btn burger menu")
         );
     }
+
 
     public void addToCart() {
         final var lista = findAll(listaAddToCart);

@@ -20,7 +20,7 @@ public class ShoppingStepDefinitions {
     @Then("verifico la UI de la interfaz de shopping")
     public void verificoLaUIDeLaInterfazDeShopping() {
         Logs.info("verificar UI shopping");
-        shoppingPage.verificarUIshopping();
+        shoppingPage.verifyPage();
     }
 
     @When("agrego todos los items al carrito de compra")

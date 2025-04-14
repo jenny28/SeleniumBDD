@@ -14,7 +14,7 @@ public class FooterStepDefinitions {
     }
 
     @Then("se verifica la red de facebook {string} , de twitter {string} y de linkedln {string} en el footer")
-    public void seVerificaLaRedDeFacebookDeTwitterYDeLinkedln(String urlFB, String urlTwitter, String urlLinkeln) {
+    public void verificarRedesSociales(String urlFB, String urlTwitter, String urlLinkeln) {
         footer.verificarRedesSociales(urlFB, urlTwitter, urlLinkeln);
     }
 }

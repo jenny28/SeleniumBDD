@@ -13,7 +13,7 @@ public class ShoppingPage extends BasePage {
     private final By listItems = By.className("inventory_list");
     private final By btnCheckout = By.id("shopping_cart_container");
     private final By btnBurgerMenu = By.id("react-burger-menu-btn");
-    
+
     private final By listaAddToCart = By.xpath("//button[text()='Add to cart']");
 
     @Override
@@ -31,6 +31,7 @@ public class ShoppingPage extends BasePage {
 
 
     public void addToCart() {
+        Logs.info("agregar elementos al carrito");
         final var lista = findAll(listaAddToCart);
         for (var items : lista) {
             items.click();

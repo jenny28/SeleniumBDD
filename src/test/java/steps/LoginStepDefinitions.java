@@ -1,44 +1,50 @@
 package steps;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
+import utilities.CommonFlows;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
 public class LoginStepDefinitions {
 
-    private final LoginPage loginPage = new LoginPage();
-
     private String urlActual;
+    private final LoginPage loginPage = new LoginPage();
+    private final CommonFlows common = new CommonFlows();
+
 
     private WebDriver getDriver() {
         return new WebDriverProvider().get();
     }
 
     @Given("que ingreso a la página {string}")
-    public void ingresarSistema(String url) {
-        getDriver().get(url);
+    public void ingresarPagina(String url) {
+        Logs.info("ingreso a la página");
+        common.goTOLoginPage(url);
     }
-
 
     @Then("el sistema muestra la interfaz de login")
     public void verificarInterfazLogin() {
         loginPage.verifyPage();
     }
 
+    @When("obtengo la url del navegador")
+    public void obtenerUrlActual() {
+        Logs.info("obtener URl actual");
+        common.currentUrl();
+    }
+
+    @Then("verifico que la url actual es la misma a {string}")
+    public void verificarURLactual(String URLesperada) {
+        common.verificarURL(URLesperada);
+    }
 
     @Then("se verifica el ingreso al sistema")
     public void verificarIngresoSistema() {
         loginPage.verificarIngresoSistema();
-    }
-
-    @And("el sistema muestra la url {string}")
-    public void verificarURL(String URLesperada) {
-        loginPage.verificarURL(URLesperada);
     }
 
     @Then("el sistema muestra mensaje de error {string}")

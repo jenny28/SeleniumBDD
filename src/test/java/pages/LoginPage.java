@@ -36,12 +36,6 @@ public class LoginPage extends BasePage {
         find(loginButton).click();
     }
 
-    public void verificarURL(String urlEsperada) {
-        Logs.info("verifico la url");
-        urlActual = getDriver().getCurrentUrl();
-        Assertions.assertEquals(urlActual, urlEsperada);
-    }
-
     public void verificarIngresoSistema() {
         Logs.info("verificar ingreso al sistema");
         Assertions.assertTrue(find(productTitle).isDisplayed());
@@ -54,4 +48,5 @@ public class LoginPage extends BasePage {
                 () -> Assertions.assertEquals(find(messageError).getText(), mensajeEsperado)
         );
     }
+
 }

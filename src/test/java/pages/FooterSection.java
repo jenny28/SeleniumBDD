@@ -17,7 +17,7 @@ public class FooterSection extends BasePage {
 
     }
 
-    public void verificarRedesSociales(String urlFB, String urlTW, String urlLK) {
+    public void verificarRedesSociales(String urlFB, String urlTw, String urlLK) {
         Logs.info("verificar página");
         Assertions.assertAll(
                 () -> Assertions.assertTrue(find(urlFacebook).isDisplayed(), "desplegado urlFB"),
@@ -25,9 +25,10 @@ public class FooterSection extends BasePage {
                 () -> Assertions.assertEquals(find(urlFacebook).getDomAttribute("href"), urlFB),
                 () -> Assertions.assertTrue(find(urlTwitter).isDisplayed(), "urlTw"),
                 () -> Assertions.assertTrue(find(urlTwitter).isEnabled(), "habilitado"),
-                () -> Assertions.assertEquals(find(urlTwitter).getDomAttribute("href"), urlTW),
-                () -> Assertions.assertTrue(find(urlLinkdin).isDisplayed(), "urlLinkdin"),
-                () -> Assertions.assertTrue(find(urlLinkdin).isEnabled(), "habilitado Twitter")
+                () -> Assertions.assertEquals(find(urlTwitter).getDomAttribute("href"), urlTw),
+                () -> Assertions.assertTrue(find(urlLinkdin).isDisplayed(), "url LInkd desplegada"),
+                () -> Assertions.assertTrue(find(urlLinkdin).isEnabled(), "habilitado Twitter"),
+                () -> Assertions.assertEquals(find(urlLinkdin).getDomAttribute("href"), urlLK)
         );
     }
 }

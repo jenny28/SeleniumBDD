@@ -37,4 +37,5 @@ public class ShoppingPage extends BasePage {
             items.click();
         }
     }
+
 }

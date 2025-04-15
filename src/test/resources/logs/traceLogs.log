@@ -1,15 +1,15 @@
-21:37:32.562 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero verificar la cantidad de elementos seleccionados desde PLP para que pueda realizar la compra
-21:37:32.562 DEBUG AUTOMATION - Inicializando el driver
-21:37:34.413 DEBUG AUTOMATION - maximizar las pantallas
-21:37:34.449 DEBUG AUTOMATION - eliminar cookies
-21:37:34.464 DEBUG AUTOMATION - Agregando implicit wait
-21:37:34.470 DEBUG AUTOMATION - guardar el driver inicializado
-21:37:35.408 INFO  AUTOMATION - verificar login user
-21:37:35.408 INFO  AUTOMATION - escribo el username
-21:37:35.556 INFO  AUTOMATION - escribo password
-21:37:35.671 INFO  AUTOMATION - hago click
-21:37:35.835 INFO  AUTOMATION - agregar los items al carrito
-21:37:35.836 INFO  AUTOMATION - agregar elementos al carrito
-21:37:36.248 INFO  AUTOMATION - verificar cantidad esperada
-21:37:36.292 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero verificar la cantidad de elementos seleccionados desde PLP para que pueda realizar la compra, status: PASSED
-21:37:36.292 DEBUG AUTOMATION - matando el driver
+21:52:38.248 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero verificar el botón About para ingresar a otras opciones del aplicativo
+21:52:38.253 DEBUG AUTOMATION - Inicializando el driver
+21:52:40.322 DEBUG AUTOMATION - maximizar las pantallas
+21:52:40.378 DEBUG AUTOMATION - eliminar cookies
+21:52:40.395 DEBUG AUTOMATION - Agregando implicit wait
+21:52:40.402 DEBUG AUTOMATION - guardar el driver inicializado
+21:52:40.410 INFO  AUTOMATION - ingreso a la página
+21:52:40.410 INFO  AUTOMATION - go to page
+21:52:40.965 INFO  AUTOMATION - verificar login user
+21:52:40.965 INFO  AUTOMATION - escribo el username
+21:52:41.129 INFO  AUTOMATION - escribo password
+21:52:41.263 INFO  AUTOMATION - hago click
+21:52:41.450 INFO  AUTOMATION - boton About
+21:52:41.457 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero verificar el botón About para ingresar a otras opciones del aplicativo, status: PASSED
+21:52:41.457 DEBUG AUTOMATION - matando el driver

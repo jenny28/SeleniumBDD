@@ -1,5 +1,6 @@
 package steps;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebDriver;
 import pages.TopBarSection;
@@ -16,5 +17,10 @@ public class TopBarStepDefinitions {
     @Then("el checkout muestra {int} elementos")
     public void verifyItemsSelected(int cant) {
         topbar.verifyItemsSelected(cant);
+    }
+
+    @And("ingreso al burger menu")
+    public void ingresoAlBurgerMenu() {
+        
     }
 }

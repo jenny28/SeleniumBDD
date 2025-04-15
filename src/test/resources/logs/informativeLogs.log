@@ -1,9 +1,9 @@
-21:37:32.562 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero verificar la cantidad de elementos seleccionados desde PLP para que pueda realizar la compra
-21:37:35.408 INFO  AUTOMATION - verificar login user
-21:37:35.408 INFO  AUTOMATION - escribo el username
-21:37:35.556 INFO  AUTOMATION - escribo password
-21:37:35.671 INFO  AUTOMATION - hago click
-21:37:35.835 INFO  AUTOMATION - agregar los items al carrito
-21:37:35.836 INFO  AUTOMATION - agregar elementos al carrito
-21:37:36.248 INFO  AUTOMATION - verificar cantidad esperada
-21:37:36.292 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero verificar la cantidad de elementos seleccionados desde PLP para que pueda realizar la compra, status: PASSED
+21:52:38.248 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero verificar el botón About para ingresar a otras opciones del aplicativo
+21:52:40.410 INFO  AUTOMATION - ingreso a la página
+21:52:40.410 INFO  AUTOMATION - go to page
+21:52:40.965 INFO  AUTOMATION - verificar login user
+21:52:40.965 INFO  AUTOMATION - escribo el username
+21:52:41.129 INFO  AUTOMATION - escribo password
+21:52:41.263 INFO  AUTOMATION - hago click
+21:52:41.450 INFO  AUTOMATION - boton About
+21:52:41.457 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero verificar el botón About para ingresar a otras opciones del aplicativo, status: PASSED

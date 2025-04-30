@@ -1,13 +1,18 @@
 package hooks;
 
+import com.google.common.io.Files;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
 public class Hooks {
@@ -36,8 +41,10 @@ public class Hooks {
     }
 
     @After
-    public void after(Scenario scenario) {
+    public void after(Scenario scenario) throws IOException {
         Logs.info("Terminando el escenario: %s, status: %s", scenario.getName(), scenario.getStatus());
+        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        Files.copy(file, new File("F:\\Proyectos\\seleniumBDD\\sample\\screenshot.jpg"));
         Logs.debug("matando el driver");
         driver.quit();
     }

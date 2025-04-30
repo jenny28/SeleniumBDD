@@ -1,15 +1,11 @@
-21:52:38.248 INFO  AUTOMATION - comienzo el escenario: Como usuario existente quiero verificar el botón About para ingresar a otras opciones del aplicativo
-21:52:38.253 DEBUG AUTOMATION - Inicializando el driver
-21:52:40.322 DEBUG AUTOMATION - maximizar las pantallas
-21:52:40.378 DEBUG AUTOMATION - eliminar cookies
-21:52:40.395 DEBUG AUTOMATION - Agregando implicit wait
-21:52:40.402 DEBUG AUTOMATION - guardar el driver inicializado
-21:52:40.410 INFO  AUTOMATION - ingreso a la página
-21:52:40.410 INFO  AUTOMATION - go to page
-21:52:40.965 INFO  AUTOMATION - verificar login user
-21:52:40.965 INFO  AUTOMATION - escribo el username
-21:52:41.129 INFO  AUTOMATION - escribo password
-21:52:41.263 INFO  AUTOMATION - hago click
-21:52:41.450 INFO  AUTOMATION - boton About
-21:52:41.457 INFO  AUTOMATION - Terminando el escenario: Como usuario existente quiero verificar el botón About para ingresar a otras opciones del aplicativo, status: PASSED
-21:52:41.457 DEBUG AUTOMATION - matando el driver
+21:01:47.588 INFO  AUTOMATION - comienzo el escenario: Como usuario quiero verificar la url actual para navegar en la aplicación correcta
+21:01:47.594 DEBUG AUTOMATION - Inicializando el driver
+21:01:52.282 DEBUG AUTOMATION - maximizar las pantallas
+21:01:52.342 DEBUG AUTOMATION - eliminar cookies
+21:01:52.371 DEBUG AUTOMATION - Agregando implicit wait
+21:01:52.378 DEBUG AUTOMATION - guardar el driver inicializado
+21:01:52.395 INFO  AUTOMATION - ingreso a la página
+21:01:52.395 INFO  AUTOMATION - go to page
+21:01:53.413 INFO  AUTOMATION - obtener URl actual
+21:01:53.439 INFO  AUTOMATION - Terminando el escenario: Como usuario quiero verificar la url actual para navegar en la aplicación correcta, status: PASSED
+21:01:53.686 DEBUG AUTOMATION - matando el driver

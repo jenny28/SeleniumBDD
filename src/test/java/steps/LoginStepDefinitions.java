@@ -11,7 +11,6 @@ import utilities.WebDriverProvider;
 
 public class LoginStepDefinitions {
 
-    private String urlActual;
     private final LoginPage loginPage = new LoginPage();
     private final CommonFlows common = new CommonFlows();
 

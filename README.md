@@ -14,7 +14,7 @@ Se tiene como base de pruebas la página web y se evalúa los defectos que conti
 - Implementación de las pruebas  
   Creación de los scripts automatizados, generar data para las pruebas  
   
-- Ejecución de las pruebas
+- Ejecución de las pruebas  
   Se compara los resultados reales con lo planificado.  
   
 - Compleción de las pruebas  

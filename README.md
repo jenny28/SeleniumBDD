@@ -5,7 +5,12 @@ Entre los actividades de prueba, según ISTQB, tenemos:
 ![image](https://github.com/user-attachments/assets/74748ff4-798f-4353-9429-5a2f32cd8dca)
 
 
-- Monitorización y control de las pruebas  
+- Monitorización y control de las pruebas
+
+LOGIN DEL SISTEMA
+- Verificar el login de la página con credenciales válidas
+- Verificar el login del sistema con credenciales inválidas
+
 ![image](https://github.com/user-attachments/assets/ec81b1da-9565-4814-bf75-9c113f3a9922)
 
   

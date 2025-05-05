@@ -2,9 +2,7 @@ Entre los actividades de prueba, según ISTQB, tenemos:
 
 - Planificación de pruebas
 
-
-![image](https://github.com/user-attachments/assets/8db342b2-974d-4ef5-97a9-6d1a84830f15)
-
+![image](https://github.com/user-attachments/assets/fff28585-5dc9-43a5-9520-f5fcd20612ba)
 
 - Monitorización y control de las pruebas
 - Análisis de pruebas

@@ -6,6 +6,9 @@ Entre los actividades de prueba, según ISTQB, tenemos:
 
 
 - Monitorización y control de las pruebas  
+![image](https://github.com/user-attachments/assets/ec81b1da-9565-4814-bf75-9c113f3a9922)
+
+  
 - Análisis de pruebas  
 Se tiene como base de pruebas la página web y se evalúa los defectos que contiene.  
 

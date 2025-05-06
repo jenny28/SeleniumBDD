@@ -1,4 +1,5 @@
-Entre los actividades de prueba, según ISTQB, tenemos:
+Se está considerando el desarrollo del proyecto de automatización aplicando metodología ágil.  
+Entre los actividades de prueba, según ISTQB, se han aplicado:
 
 ✨ Planificación de pruebas
 

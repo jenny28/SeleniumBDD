@@ -21,6 +21,6 @@ public class TopBarStepDefinitions {
 
     @And("ingreso al burger menu")
     public void ingresoAlBurgerMenu() {
-        
+
     }
 }

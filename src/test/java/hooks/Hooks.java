@@ -7,7 +7,7 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
@@ -23,7 +23,7 @@ public class Hooks {
     public static void before(Scenario scenario) {
         Logs.info("comienzo el escenario: %s", scenario.getName());
         Logs.debug("Inicializando el driver");
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
 
         Logs.debug("maximizar las pantallas");
         driver.manage().window().maximize();
@@ -43,6 +43,7 @@ public class Hooks {
     @After
     public void after(Scenario scenario) throws IOException {
         Logs.info("Terminando el escenario: %s, status: %s", scenario.getName(), scenario.getStatus());
+
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Files.copy(file, new File("F:\\Proyectos\\seleniumBDD\\sample\\screenshot.jpg"));
         Logs.debug("matando el driver");

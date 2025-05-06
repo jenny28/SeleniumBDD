@@ -8,6 +8,7 @@ import utilities.Logs;
 public class TopBarSection extends BasePage {
 
     private final By itemCount = By.cssSelector("span[data-test='shopping-cart-badge']");
+    private final By linkCart = By.cssSelector("a[data-test='shopping-cart-link']");
     private final By burgenMenuButton = By.id("react-burger-menu-btn");
     private final By botonAbout = By.id("about_sidebar_link");
 
@@ -38,5 +39,9 @@ public class TopBarSection extends BasePage {
                 () -> Assertions.assertEquals(find(botonAbout).getDomAttribute("href"), url)
         );
 
+    }
+
+    public void openCart() {
+        find(linkCart).click();
     }
 }

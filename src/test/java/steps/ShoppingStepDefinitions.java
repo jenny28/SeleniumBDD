@@ -1,5 +1,6 @@
 package steps;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
@@ -25,6 +26,14 @@ public class ShoppingStepDefinitions {
     public void addToCart() {
         Logs.info("agregar los items al carrito");
         shoppingPage.addToCart();
+    }
 
+    @And("clic en finalizado")
+    public void clicEnFinalizado() {
+
+    }
+
+    @Then("se genera la orden de compra")
+    public void seGeneraLaOrdenDeCompra() {
     }
 }

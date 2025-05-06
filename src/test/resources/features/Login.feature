@@ -17,7 +17,6 @@ Feature: Login del sistema
       | username        | password       |
       | "standard_user" | "secret_sauce" |
 
-  @regression
   Scenario Outline: Como usuario no existente quiero que se validen las credenciales para que se muestre el mensaje error que corresponde
     When ingreso el usuario <username> y password <password>
     Then el sistema muestra mensaje de error <message>

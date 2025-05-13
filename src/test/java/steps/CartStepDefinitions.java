@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import pages.CartPage;
 import pages.ShoppingPage;
 import pages.TopBarSection;
+import utilities.Logs;
 import utilities.WebDriverProvider;
 
 public class CartStepDefinitions {
@@ -20,6 +21,7 @@ public class CartStepDefinitions {
 
     @When("ingreso a la interfaz carrito de compra")
     public void ingresoALaInterfazCarritoDeCompra() {
+        Logs.info("verificar UI carrito de compra");
         shoppingPage.addToCart();
         topBarSection.openCart();
     }

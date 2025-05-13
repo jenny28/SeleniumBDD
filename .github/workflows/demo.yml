@@ -1,7 +1,10 @@
 name: hello-world
-'on': push
+'on':
+  push:
+    branches: [ main ]
 jobs:
-  my-job:
+  test:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
       - name: my-step
